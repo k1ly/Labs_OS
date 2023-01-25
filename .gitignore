@@ -1,0 +1,11 @@
+### Visual Studio ###
+.vs/
+Debug/
+x64/
+x86/
+*.sln
+*.filters
+*.user
+
+# Logs #
+logs/
