@@ -1,0 +1,25 @@
+2: CFactory::CFactory
+4: CFactory::AddRef, m_Ref = 2
+3: CFactory::QueryInterface, rc = 0
+5: CFactory::Release, m_Ref = 1
+1: DllGetClassObject, rc = 0
+7: OS13::OS13, g_Components = 1
+9: OS13::AddRef, m_Ref = 2
+8: OS13::QueryInterface, rc = 0
+10: OS13::Release, m_Ref = 1
+6: CFactory::CreateInstance, rc = 0
+11: OS13::AddRef, m_Ref = 2
+12: OS13::Release, m_Ref = 1
+14: CFactory::~CFactory
+13: CFactory::Release, m_Ref = 0
+16: OS13::AddRef, m_Ref = 2
+15: OS13::QueryInterface, rc = 0
+17: OS13::Release, m_Ref = 1
+19: OS13::AddRef, m_Ref = 2
+18: OS13::QueryInterface, rc = 0
+20: OS13::Create, ht = 000001DCEFEE0000
+21: OS13::Release, m_Ref = 1
+23: OS13::AddRef, m_Ref = 2
+22: OS13::QueryInterface, rc = 0
+24: OS13::Close, b = true
+25: OS13::Release, m_Ref = 1
